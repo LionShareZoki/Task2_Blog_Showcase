@@ -1,0 +1,329 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  font-family: "Barlow Condensed", arial;
+}
+
+body::-webkit-scrollbar {
+  width: 0em;
+}
+
+.title {
+  width: 80%;
+  max-width: 1312px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 64px auto;
+}
+
+.frame_title {
+  width: 100%;
+  height: 59px;
+  top: 0;
+  margin-bottom: 16px;
+}
+
+.frame_title h1 {
+  font-weight: 600;
+  font-size: 4.5em;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.title p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  width: 70%;
+  max-width: 700px;
+  height: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.title button {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: 128px;
+  height: 29px;
+  font-style: normal;
+  line-height: 130%;
+  background: none;
+  border: none;
+  padding-bottom: 2px;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 2px;
+  width: 128px;
+  height: 29px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.813em;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.icon {
+  width: 128px;
+  height: 1px;
+  background-color: #000000;
+}
+
+.frame {
+  width: 80%;
+  max-width: 1312px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+}
+
+.box {
+  height: 472px;
+  width: 360px;
+  position: relative;
+}
+
+.img_graph {
+  position: relative;
+  margin-bottom: 2em;
+}
+
+.img_fruits-lu {
+  height: 16.6em;
+  width: 17.6em;
+  z-index: 1;
+  border-radius: 0px;
+  position: absolute;
+  left: -4.5em;
+  top: -3.5em;
+}
+
+.img_fruits-ru {
+  height: 10em;
+  width: 14em;
+  z-index: 1;
+  border-radius: 0px;
+  position: absolute;
+  left: 8em;
+  top: -2em;
+}
+
+.img_fruits-ll {
+  height: 11.9em;
+  width: 14em;
+  left: -5.5em;
+  bottom: -2em;
+  border-radius: 0px;
+  z-index: 1;
+  position: absolute;
+}
+
+.img_fruits-rl {
+  height: 11.9em;
+  width: 14em;
+  border-radius: 0px;
+  right: -2em;
+  bottom: -2em;
+  z-index: 1;
+  position: absolute;
+}
+
+.img_picture {
+  width: 100%;
+  height: auto;
+  max-width: 360px;
+  border-radius: 50%;
+  z-index: 2;
+  position: relative;
+}
+
+.info {
+  bottom: 0;
+  width: 360px;
+  height: 5.3em;
+}
+
+.text_info {
+  display: flex;
+  text-align: center;
+  font-size: 2.25em;
+  width: 100%;
+  height: 100%;
+  font-weight: 600;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1440px) and (max-width: 1440px) {
+  .title {
+    width: 1312px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+
+  .frame_title {
+    width: 100%;
+    height: 59px;
+    top: 0;
+    margin-bottom: 16px;
+  }
+
+  .frame_title h1 {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 59.4px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  .title p {
+    margin-top: 0;
+    margin-bottom: 16px;
+    width: 700px;
+    height: 31px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    text-align: center;
+  }
+
+  .title button {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 128px;
+    height: 29px;
+    font-style: normal;
+    line-height: 130%;
+    background: none;
+    border: none;
+    padding-bottom: 2px;
+  }
+
+  .text {
+    text-align: center;
+    margin-bottom: 2px;
+    width: 128px;
+    height: 29px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 130%;
+    text-transform: uppercase;
+  }
+
+  .icon {
+    width: 128px;
+    height: 1px;
+    background-color: #000000;
+  }
+
+  .frame {
+    width: 1312px;
+    height: 472px;
+    margin-left: 64px;
+    margin-right: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+  }
+
+  .box {
+    height: 472px;
+    width: 360px;
+    position: relative;
+  }
+  .img_graph {
+    position: relative;
+    margin-bottom: 32px;
+  }
+  .img_fruits-lu {
+    height: 253.05px;
+    width: 267.66px;
+    z-index: 1;
+    border-radius: 0px;
+    position: absolute;
+    left: -64.83px;
+    right: -26.77%;
+    left: -40.52%;
+    top: -49px;
+  }
+  .img_fruits-ru {
+    height: 160px;
+    width: 232.73px;
+    z-index: 1;
+    border-radius: 0px;
+    position: absolute;
+    left: 185px;
+    top: -32px;
+  }
+  .img_fruits-ll {
+    height: 188.3253631591797px;
+    width: 232.72726440429688px;
+    left: -88px;
+    bottom: -17.7%;
+    border-radius: 0px;
+    z-index: 1;
+    border-radius: 0px;
+    position: absolute;
+  }
+  .img_fruits-rl {
+    height: 188.3253631591797px;
+    width: 232.72726440429688px;
+    border-radius: 0px;
+    right: -17.36%;
+    bottom: -17.7%;
+    z-index: 1;
+    border-radius: 0px;
+    position: absolute;
+  }
+
+  .img_picture {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    z-index: 2;
+    position: relative;
+  }
+
+  .info {
+    bottom: 0;
+    width: 360px;
+    height: 80px;
+  }
+
+  .text_info {
+    display: flex;
+    text-align: center;
+    font-size: 36px;
+    width: 360px;
+    height: 80px;
+    font-weight: 600;
+    line-height: 39.6px;
+    text-transform: uppercase;
+  }
+}
