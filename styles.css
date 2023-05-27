@@ -38,7 +38,6 @@ body::-webkit-scrollbar {
 .title p {
   margin-top: 0;
   margin-bottom: 16px;
-  width: 70%;
   max-width: 700px;
   height: auto;
   font-style: normal;
@@ -325,5 +324,78 @@ body::-webkit-scrollbar {
     font-weight: 600;
     line-height: 39.6px;
     text-transform: uppercase;
+  }
+}
+
+@media (max-width: 1275px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .frame {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    width: 304px;
+    max-width: 360px;
+    margin-left: 35.5px;
+    margin-right: 35.5px;
+  }
+
+  .text_info {
+    font-size: 24px;
+    line-height: 26.4px;
+  }
+
+  .info {
+    max-width: 100%;
+  }
+
+  .title {
+    width: 343px;
+    height: 150px;
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .frame_title h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 26px;
+  }
+
+  .frame_title p {
+    font-size: 20px;
+    line-height: 26px;
+    width: 343px;
+    align-self: stretch;
+  }
+
+  .title button {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 115px;
+    height: 26px;
+    font-style: normal;
+    line-height: 130%;
+    background: none;
+    border: none;
+    padding: 0;
+    padding-bottom: 2px;
+    white-space: nowrap;
+  }
+
+  .text {
+    height: 29px;
+    font-size: 12px;
+    width: 115px;
+  }
+
+  .icon {
+    width: 115px;
   }
 }
